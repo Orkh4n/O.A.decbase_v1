@@ -1,0 +1,146 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Open Sans;
+    color: #212121;
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* -----------------------------------------Header------------------------------------ */
+.base{
+    width: 1434px;
+    min-height: 40px;
+    margin: 0 auto;
+}
+.block{
+    width: 1433px;
+    margin: 0 auto;
+    float: left;
+}
+.header{
+    width: 1346px;
+    float: left;
+   
+    
+}
+.header_logo{
+    width: 151px;
+    height: 47px;
+    float: left;
+    margin: 0 300px 0 60px;
+}
+.header_menu{
+    width: 811px;
+    height: 32px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar_menu{
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+.menu_list{
+    margin: 0 25px 0 0;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+   
+}
+.menu_list:hover{
+    border-bottom: 2px solid black;
+}
+.btn{
+    width: 97px;
+    height: 32px;
+    margin-left: 70px;
+    background: #CAA892;
+    border-radius: 15px 0px;
+    color: #ffff;
+    border: 1px none;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #37806B;
+    color: #CAA892;
+    cursor: pointer;
+}
+/* ---------------------------------------body--------------------------------- */
+.create{
+    width: 606px;
+    height: 414px;
+    float: left;
+    margin-right:150px;
+}
+.create h1{
+    width: 520px;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 78px;
+    margin-bottom: 35px;
+}
+.create p{
+    margin-bottom: 70px;
+}
+.all_btn{
+    width: 142px;
+    height: 42px;
+    background: #37806B;
+    border-radius: 20px 0px;
+    border: none;
+    color: #ffff;
+    transition: 0.6s;
+}
+.all_btn:hover{
+    background: #CAA892;
+    cursor: pointer;
+    
+}
+.all_img{
+    width: 616px;
+    height: 525px;
+    float: left;
+}
+.subtitle{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #646464;
+
+}
+.interior{
+    margin: 150px 0 0 25px;
+}
+.services{
+    margin-top: 50px;
+}
+.services_block{
+    width: 425px;
+    height: 193px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0px;
+    float: left;
+    margin: 40px 37px 0 0;
+}
+.services_block img{
+    margin: 40px 40px 0 37px;
+    float: left;
+}
+.services_block h3 {
+    margin: 20px 0 25px 0;
+    float: left;
+    
+}
+.services_block p{
+    width: 300px;
+    height: 80px;
+    float: left;
+}
